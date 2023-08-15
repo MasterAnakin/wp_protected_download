@@ -1,6 +1,6 @@
 <?php
 
-//Logic for handling protected downloads on SME site. sme_download_link is a function that will redirect to this file here. There are several security checks to prevent downloading anything else except the media. 
+//Logic for handling protected downloads. Users are redirected to here. 
     
 function download_pdf(){
     //Check if file exists in media
